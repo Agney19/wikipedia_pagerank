@@ -9,7 +9,7 @@ As dump data is too large to be loaded in RAM entirely. It is divided between 3 
 **calculate.py** - calculate PageRank for obtained matrices and output top 10 articles
 
 **Results: top 10 articles**
-
+```
 Page Rank | Page name
        
  0.00222  |  United_States
@@ -31,3 +31,4 @@ Page Rank | Page name
  0.00066  |  Wiktionary
   
  0.00065  |  Canada
+```
