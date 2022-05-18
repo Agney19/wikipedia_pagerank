@@ -9,7 +9,7 @@ As dump data is too large to be loaded in RAM entirely. It is divided between 3 
 **calculate.py** - calculate PageRank for obtained matrices and output top 10 articles
 
 **Results**
-       Page Rank  Page name
+       Page Rank  Page name\n
   1    0.00222    United_States
   2    0.00141    2007
   3    0.00136    2008
