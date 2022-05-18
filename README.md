@@ -9,24 +9,25 @@ As dump data is too large to be loaded in RAM entirely. It is divided between 3 
 **calculate.py** - calculate PageRank for obtained matrices and output top 10 articles
 
 **Results**
-       Page Rank  Page name
+
+Page Rank  Page name
        
-  1    0.00222    United_States
+ 0.00222    United_States
   
-  2    0.00141    2007
+ 0.00141    2007
   
-  3    0.00136    2008
+ 0.00136    2008
   
-  4    0.00126    Geographic_coordinate_system
+ 0.00126    Geographic_coordinate_system
   
-  5    0.00101    United_Kingdom
+ 0.00101    United_Kingdom
   
-  6    0.00087    2006
+ 0.00087    2006
   
-  7    0.00074    France
+ 0.00074    France
   
-  8    0.00073    Wikimedia_Commons
+ 0.00073    Wikimedia_Commons
   
-  9    0.00066    Wiktionary
+ 0.00066    Wiktionary
   
- 10    0.00065    Canada
+ 0.00065    Canada
