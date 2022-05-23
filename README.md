@@ -25,6 +25,7 @@ To parse Wikipedia dump files and calculate ranks the following scripts should b
 **pagerank_search.py**        - execute search on file generated from calculate_pagerank.py and show the most high-ranked articles
 
 **hits.py**                   - execute search, calculate HITS ranks and show the most high-ranked articles
+
 ---
 
 **Example: PageRank top 10 articles**
