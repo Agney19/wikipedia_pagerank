@@ -3,10 +3,13 @@
 **PageRank & HITS rank calculation for Wikipedia articles (+ keyword-inclusion search)**
 
 Wikipedia publish dump files which should be downloaded: https://dumps.wikimedia.org/enwiki/20220501/: enwiki-latest-page.sql and enwiki-latest-pagelinks.sql
+
 You need at least 10 Gb of RAM to successfully finish script execution
+
 To parse Wikipedia dump files and calculate ranks the following scripts should be run sequentially in the specified order:
 
 **prepare_page_file.py**      - parse enwiki-latest-page.sql (pages info) and store result in file in format "('id' 'article name')"
+
 **prepare_pagelinks_file.py** - parse enwiki-latest-pagelinks.sql (page links info) and store result in file in format "'to_page_id': 'from_page_id_1' 'from_page_id_2' ..."
 
 **sort_pages.py**             - sort file generated from prepare_page_file.py by article name and generate new file in the same format
@@ -15,6 +18,7 @@ To parse Wikipedia dump files and calculate ranks the following scripts should b
 **prepare_data.py**           - use previously generated files to create final all-pages-and-links-matrix divided in 100 chunks stored in .npz files (compressed scypi sparse matrices)
 
 **calculate_pagerank.py**     - calculate PageRank for obtained matrices and store result in file in format: "('rank' 'article name')"
+
 **pagerank_search.py**        - execute search on file generated from calculate_pagerank.py and show the most high-ranked articles
 
 **hits.py**                   - execute search, calculate HITS ranks and show the most high-ranked articles
