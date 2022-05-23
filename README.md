@@ -2,8 +2,8 @@
 
 **PageRank & HITS rank calculation for Wikipedia articles (+ keyword-inclusion search)**
 
-Wikipedia publish dump files which should be downloaded: https://dumps.wikimedia.org/enwiki/20220501/: enwiki-latest-page.sql and enwiki-latest-pagelinks.sql
-You need at least 10 Gb of RAM to successfully finish script execution
+Wikipedia publish dump files which should be downloaded: https://dumps.wikimedia.org/enwiki/20220501/: enwiki-latest-page.sql and enwiki-latest-pagelinks.sql \
+You need at least 10 Gb of RAM to successfully finish script execution \
 To parse Wikipedia dump files and calculate ranks the following scripts should be run sequentially in the specified order:
 
 ---
